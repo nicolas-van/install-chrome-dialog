@@ -15,6 +15,7 @@ module.exports = function(grunt) {
                 strict: true, // enforce strict mode
                 trailing: true, // trailing whitespaces are ugly
                 camelcase: true, // force camelCase
+                strict: true, // forces strict mode
                 es3: true,
             },
         },
