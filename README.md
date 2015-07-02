@@ -6,7 +6,7 @@ the problem and propose the user to download Google Chrome.
 
 To use it, just put this code at the bottom of your web page:
 
-    <!--[if lt IE 9]>
+    <!--[if lt IE 10]>
     <script src="https://cdn.rawgit.com/nicolas-van/install-chrome-dialog/0.1.0/install-chrome-dialog.min.js"></script>
     <script>installChrome();</script>
     <![endif]-->
