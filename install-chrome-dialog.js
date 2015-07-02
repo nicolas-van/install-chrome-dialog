@@ -12,7 +12,8 @@
         '</div>';
         document.getElementsByTagName("body")[0].innerHTML += html;
         document.getElementById("install-chrome-close-btn").onclick = function() {
-            document.getElementById('install-chrome-dialog').remove();
+            var el = document.getElementById('install-chrome-dialog');
+            el.parentNode.removeChild(el);
         };
     };
 
